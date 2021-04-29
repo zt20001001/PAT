@@ -1,0 +1,3 @@
+"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\RankGrade.dir/objects.a
+E:\MinGW\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\RankGrade.dir/objects.a @CMakeFiles\RankGrade.dir\objects1.rsp
+E:\MinGW\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\RankGrade.dir/objects.a -Wl,--no-whole-archive -o RankGrade.exe -Wl,--out-implib,libRankGrade.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RankGrade.dir\linklibs.rsp
