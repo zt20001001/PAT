@@ -1,4 +1,7 @@
 D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/RankGrade.dir
 D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/PAT.dir
-D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/ReverseDialog.dir
+D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/AnotherOutput.dir
 D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/PrimePairs.dir
+D:/C++(CL)/PAT/cmake-build-debug/CMakeFiles/edit_cache.dir

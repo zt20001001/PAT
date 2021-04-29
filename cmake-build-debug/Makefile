@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = D:\C++(CL)\PAT\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -95,6 +84,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -154,6 +154,99 @@ PAT/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PAT.dir\build.make CMakeFiles/PAT.dir/build
 .PHONY : PAT/fast
 
+#=============================================================================
+# Target rules for targets named ReverseDialog
+
+# Build rule for target.
+ReverseDialog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ReverseDialog
+.PHONY : ReverseDialog
+
+# fast build rule for target.
+ReverseDialog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/build
+.PHONY : ReverseDialog/fast
+
+#=============================================================================
+# Target rules for targets named AnotherOutput
+
+# Build rule for target.
+AnotherOutput: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AnotherOutput
+.PHONY : AnotherOutput
+
+# fast build rule for target.
+AnotherOutput/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherOutput.dir\build.make CMakeFiles/AnotherOutput.dir/build
+.PHONY : AnotherOutput/fast
+
+#=============================================================================
+# Target rules for targets named PrimePairs
+
+# Build rule for target.
+PrimePairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PrimePairs
+.PHONY : PrimePairs
+
+# fast build rule for target.
+PrimePairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/build
+.PHONY : PrimePairs/fast
+
+Algorithm/AnotherOutput.obj: Algorithm/AnotherOutput.cpp.obj
+
+.PHONY : Algorithm/AnotherOutput.obj
+
+# target to build an object file
+Algorithm/AnotherOutput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherOutput.dir\build.make CMakeFiles/AnotherOutput.dir/Algorithm/AnotherOutput.cpp.obj
+.PHONY : Algorithm/AnotherOutput.cpp.obj
+
+Algorithm/AnotherOutput.i: Algorithm/AnotherOutput.cpp.i
+
+.PHONY : Algorithm/AnotherOutput.i
+
+# target to preprocess a source file
+Algorithm/AnotherOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherOutput.dir\build.make CMakeFiles/AnotherOutput.dir/Algorithm/AnotherOutput.cpp.i
+.PHONY : Algorithm/AnotherOutput.cpp.i
+
+Algorithm/AnotherOutput.s: Algorithm/AnotherOutput.cpp.s
+
+.PHONY : Algorithm/AnotherOutput.s
+
+# target to generate assembly for a file
+Algorithm/AnotherOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherOutput.dir\build.make CMakeFiles/AnotherOutput.dir/Algorithm/AnotherOutput.cpp.s
+.PHONY : Algorithm/AnotherOutput.cpp.s
+
+Algorithm/PrimePairs.obj: Algorithm/PrimePairs.cpp.obj
+
+.PHONY : Algorithm/PrimePairs.obj
+
+# target to build an object file
+Algorithm/PrimePairs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/Algorithm/PrimePairs.cpp.obj
+.PHONY : Algorithm/PrimePairs.cpp.obj
+
+Algorithm/PrimePairs.i: Algorithm/PrimePairs.cpp.i
+
+.PHONY : Algorithm/PrimePairs.i
+
+# target to preprocess a source file
+Algorithm/PrimePairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/Algorithm/PrimePairs.cpp.i
+.PHONY : Algorithm/PrimePairs.cpp.i
+
+Algorithm/PrimePairs.s: Algorithm/PrimePairs.cpp.s
+
+.PHONY : Algorithm/PrimePairs.s
+
+# target to generate assembly for a file
+Algorithm/PrimePairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/Algorithm/PrimePairs.cpp.s
+.PHONY : Algorithm/PrimePairs.cpp.s
+
 Algorithm/RankGrade.obj: Algorithm/RankGrade.cpp.obj
 
 .PHONY : Algorithm/RankGrade.obj
@@ -180,6 +273,33 @@ Algorithm/RankGrade.s: Algorithm/RankGrade.cpp.s
 Algorithm/RankGrade.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RankGrade.dir\build.make CMakeFiles/RankGrade.dir/Algorithm/RankGrade.cpp.s
 .PHONY : Algorithm/RankGrade.cpp.s
+
+Algorithm/ReverseDialog.obj: Algorithm/ReverseDialog.cpp.obj
+
+.PHONY : Algorithm/ReverseDialog.obj
+
+# target to build an object file
+Algorithm/ReverseDialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/Algorithm/ReverseDialog.cpp.obj
+.PHONY : Algorithm/ReverseDialog.cpp.obj
+
+Algorithm/ReverseDialog.i: Algorithm/ReverseDialog.cpp.i
+
+.PHONY : Algorithm/ReverseDialog.i
+
+# target to preprocess a source file
+Algorithm/ReverseDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/Algorithm/ReverseDialog.cpp.i
+.PHONY : Algorithm/ReverseDialog.cpp.i
+
+Algorithm/ReverseDialog.s: Algorithm/ReverseDialog.cpp.s
+
+.PHONY : Algorithm/ReverseDialog.s
+
+# target to generate assembly for a file
+Algorithm/ReverseDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/Algorithm/ReverseDialog.cpp.s
+.PHONY : Algorithm/ReverseDialog.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -216,11 +336,23 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AnotherOutput
 	@echo ... PAT
+	@echo ... PrimePairs
 	@echo ... RankGrade
+	@echo ... ReverseDialog
+	@echo ... Algorithm/AnotherOutput.obj
+	@echo ... Algorithm/AnotherOutput.i
+	@echo ... Algorithm/AnotherOutput.s
+	@echo ... Algorithm/PrimePairs.obj
+	@echo ... Algorithm/PrimePairs.i
+	@echo ... Algorithm/PrimePairs.s
 	@echo ... Algorithm/RankGrade.obj
 	@echo ... Algorithm/RankGrade.i
 	@echo ... Algorithm/RankGrade.s
+	@echo ... Algorithm/ReverseDialog.obj
+	@echo ... Algorithm/ReverseDialog.i
+	@echo ... Algorithm/ReverseDialog.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

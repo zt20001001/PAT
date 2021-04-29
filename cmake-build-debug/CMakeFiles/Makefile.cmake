@@ -53,4 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/RankGrade.dir/DependInfo.cmake"
   "CMakeFiles/PAT.dir/DependInfo.cmake"
+  "CMakeFiles/ReverseDialog.dir/DependInfo.cmake"
+  "CMakeFiles/AnotherOutput.dir/DependInfo.cmake"
+  "CMakeFiles/PrimePairs.dir/DependInfo.cmake"
   )
