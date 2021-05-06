@@ -1,0 +1,3 @@
+"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ReverDialog.dir/objects.a
+E:\MinGW\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\ReverDialog.dir/objects.a @CMakeFiles\ReverDialog.dir\objects1.rsp
+E:\MinGW\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ReverDialog.dir/objects.a -Wl,--no-whole-archive -o ReverDialog.exe -Wl,--out-implib,libReverDialog.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ReverDialog.dir\linklibs.rsp

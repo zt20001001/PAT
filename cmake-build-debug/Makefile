@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = D:\C++(CL)\PAT\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -95,6 +84,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -155,19 +155,6 @@ PAT/fast:
 .PHONY : PAT/fast
 
 #=============================================================================
-# Target rules for targets named ReverseDialog
-
-# Build rule for target.
-ReverseDialog: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ReverseDialog
-.PHONY : ReverseDialog
-
-# fast build rule for target.
-ReverseDialog/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/build
-.PHONY : ReverseDialog/fast
-
-#=============================================================================
 # Target rules for targets named AnotherOutput
 
 # Build rule for target.
@@ -181,6 +168,32 @@ AnotherOutput/fast:
 .PHONY : AnotherOutput/fast
 
 #=============================================================================
+# Target rules for targets named ReverseDialog
+
+# Build rule for target.
+ReverseDialog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ReverseDialog
+.PHONY : ReverseDialog
+
+# fast build rule for target.
+ReverseDialog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/build
+.PHONY : ReverseDialog/fast
+
+#=============================================================================
+# Target rules for targets named CountNumber
+
+# Build rule for target.
+CountNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CountNumber
+.PHONY : CountNumber
+
+# fast build rule for target.
+CountNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountNumber.dir\build.make CMakeFiles/CountNumber.dir/build
+.PHONY : CountNumber/fast
+
+#=============================================================================
 # Target rules for targets named PrimePairs
 
 # Build rule for target.
@@ -192,6 +205,19 @@ PrimePairs: cmake_check_build_system
 PrimePairs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/build
 .PHONY : PrimePairs/fast
+
+#=============================================================================
+# Target rules for targets named MoveRight
+
+# Build rule for target.
+MoveRight: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MoveRight
+.PHONY : MoveRight
+
+# fast build rule for target.
+MoveRight/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MoveRight.dir\build.make CMakeFiles/MoveRight.dir/build
+.PHONY : MoveRight/fast
 
 Algorithm/AnotherOutput.obj: Algorithm/AnotherOutput.cpp.obj
 
@@ -219,6 +245,60 @@ Algorithm/AnotherOutput.s: Algorithm/AnotherOutput.cpp.s
 Algorithm/AnotherOutput.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherOutput.dir\build.make CMakeFiles/AnotherOutput.dir/Algorithm/AnotherOutput.cpp.s
 .PHONY : Algorithm/AnotherOutput.cpp.s
+
+Algorithm/CountNumber.obj: Algorithm/CountNumber.cpp.obj
+
+.PHONY : Algorithm/CountNumber.obj
+
+# target to build an object file
+Algorithm/CountNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountNumber.dir\build.make CMakeFiles/CountNumber.dir/Algorithm/CountNumber.cpp.obj
+.PHONY : Algorithm/CountNumber.cpp.obj
+
+Algorithm/CountNumber.i: Algorithm/CountNumber.cpp.i
+
+.PHONY : Algorithm/CountNumber.i
+
+# target to preprocess a source file
+Algorithm/CountNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountNumber.dir\build.make CMakeFiles/CountNumber.dir/Algorithm/CountNumber.cpp.i
+.PHONY : Algorithm/CountNumber.cpp.i
+
+Algorithm/CountNumber.s: Algorithm/CountNumber.cpp.s
+
+.PHONY : Algorithm/CountNumber.s
+
+# target to generate assembly for a file
+Algorithm/CountNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountNumber.dir\build.make CMakeFiles/CountNumber.dir/Algorithm/CountNumber.cpp.s
+.PHONY : Algorithm/CountNumber.cpp.s
+
+Algorithm/MoveRight.obj: Algorithm/MoveRight.cpp.obj
+
+.PHONY : Algorithm/MoveRight.obj
+
+# target to build an object file
+Algorithm/MoveRight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MoveRight.dir\build.make CMakeFiles/MoveRight.dir/Algorithm/MoveRight.cpp.obj
+.PHONY : Algorithm/MoveRight.cpp.obj
+
+Algorithm/MoveRight.i: Algorithm/MoveRight.cpp.i
+
+.PHONY : Algorithm/MoveRight.i
+
+# target to preprocess a source file
+Algorithm/MoveRight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MoveRight.dir\build.make CMakeFiles/MoveRight.dir/Algorithm/MoveRight.cpp.i
+.PHONY : Algorithm/MoveRight.cpp.i
+
+Algorithm/MoveRight.s: Algorithm/MoveRight.cpp.s
+
+.PHONY : Algorithm/MoveRight.s
+
+# target to generate assembly for a file
+Algorithm/MoveRight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MoveRight.dir\build.make CMakeFiles/MoveRight.dir/Algorithm/MoveRight.cpp.s
+.PHONY : Algorithm/MoveRight.cpp.s
 
 Algorithm/PrimePairs.obj: Algorithm/PrimePairs.cpp.obj
 
@@ -337,6 +417,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AnotherOutput
+	@echo ... CountNumber
+	@echo ... MoveRight
 	@echo ... PAT
 	@echo ... PrimePairs
 	@echo ... RankGrade
@@ -344,6 +426,12 @@ help:
 	@echo ... Algorithm/AnotherOutput.obj
 	@echo ... Algorithm/AnotherOutput.i
 	@echo ... Algorithm/AnotherOutput.s
+	@echo ... Algorithm/CountNumber.obj
+	@echo ... Algorithm/CountNumber.i
+	@echo ... Algorithm/CountNumber.s
+	@echo ... Algorithm/MoveRight.obj
+	@echo ... Algorithm/MoveRight.i
+	@echo ... Algorithm/MoveRight.s
 	@echo ... Algorithm/PrimePairs.obj
 	@echo ... Algorithm/PrimePairs.i
 	@echo ... Algorithm/PrimePairs.s

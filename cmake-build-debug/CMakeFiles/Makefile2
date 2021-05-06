@@ -73,9 +73,11 @@ CMAKE_BINARY_DIR = D:\C++(CL)\PAT\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/RankGrade.dir/all
 all: CMakeFiles/PAT.dir/all
-all: CMakeFiles/ReverseDialog.dir/all
 all: CMakeFiles/AnotherOutput.dir/all
+all: CMakeFiles/ReverseDialog.dir/all
+all: CMakeFiles/CountNumber.dir/all
 all: CMakeFiles/PrimePairs.dir/all
+all: CMakeFiles/MoveRight.dir/all
 
 .PHONY : all
 
@@ -87,9 +89,11 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/RankGrade.dir/clean
 clean: CMakeFiles/PAT.dir/clean
-clean: CMakeFiles/ReverseDialog.dir/clean
 clean: CMakeFiles/AnotherOutput.dir/clean
+clean: CMakeFiles/ReverseDialog.dir/clean
+clean: CMakeFiles/CountNumber.dir/clean
 clean: CMakeFiles/PrimePairs.dir/clean
+clean: CMakeFiles/MoveRight.dir/clean
 
 .PHONY : clean
 
@@ -100,7 +104,7 @@ clean: CMakeFiles/PrimePairs.dir/clean
 CMakeFiles/RankGrade.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RankGrade.dir\build.make CMakeFiles/RankGrade.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RankGrade.dir\build.make CMakeFiles/RankGrade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target RankGrade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target RankGrade"
 .PHONY : CMakeFiles/RankGrade.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,7 +131,7 @@ CMakeFiles/RankGrade.dir/clean:
 CMakeFiles/PAT.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PAT.dir\build.make CMakeFiles/PAT.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PAT.dir\build.make CMakeFiles/PAT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target PAT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target PAT"
 .PHONY : CMakeFiles/PAT.dir/all
 
 # Build rule for subdir invocation for target.
@@ -146,33 +150,6 @@ PAT: CMakeFiles/PAT.dir/rule
 CMakeFiles/PAT.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PAT.dir\build.make CMakeFiles/PAT.dir/clean
 .PHONY : CMakeFiles/PAT.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ReverseDialog.dir
-
-# All Build rule for target.
-CMakeFiles/ReverseDialog.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target ReverseDialog"
-.PHONY : CMakeFiles/ReverseDialog.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ReverseDialog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ReverseDialog.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/ReverseDialog.dir/rule
-
-# Convenience name for target.
-ReverseDialog: CMakeFiles/ReverseDialog.dir/rule
-
-.PHONY : ReverseDialog
-
-# clean rule for target.
-CMakeFiles/ReverseDialog.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/clean
-.PHONY : CMakeFiles/ReverseDialog.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/AnotherOutput.dir
@@ -202,13 +179,67 @@ CMakeFiles/AnotherOutput.dir/clean:
 .PHONY : CMakeFiles/AnotherOutput.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ReverseDialog.dir
+
+# All Build rule for target.
+CMakeFiles/ReverseDialog.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target ReverseDialog"
+.PHONY : CMakeFiles/ReverseDialog.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ReverseDialog.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ReverseDialog.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ReverseDialog.dir/rule
+
+# Convenience name for target.
+ReverseDialog: CMakeFiles/ReverseDialog.dir/rule
+
+.PHONY : ReverseDialog
+
+# clean rule for target.
+CMakeFiles/ReverseDialog.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReverseDialog.dir\build.make CMakeFiles/ReverseDialog.dir/clean
+.PHONY : CMakeFiles/ReverseDialog.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CountNumber.dir
+
+# All Build rule for target.
+CMakeFiles/CountNumber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountNumber.dir\build.make CMakeFiles/CountNumber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountNumber.dir\build.make CMakeFiles/CountNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target CountNumber"
+.PHONY : CMakeFiles/CountNumber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CountNumber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CountNumber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/CountNumber.dir/rule
+
+# Convenience name for target.
+CountNumber: CMakeFiles/CountNumber.dir/rule
+
+.PHONY : CountNumber
+
+# clean rule for target.
+CMakeFiles/CountNumber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CountNumber.dir\build.make CMakeFiles/CountNumber.dir/clean
+.PHONY : CMakeFiles/CountNumber.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/PrimePairs.dir
 
 # All Build rule for target.
 CMakeFiles/PrimePairs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target PrimePairs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target PrimePairs"
 .PHONY : CMakeFiles/PrimePairs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -227,6 +258,33 @@ PrimePairs: CMakeFiles/PrimePairs.dir/rule
 CMakeFiles/PrimePairs.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimePairs.dir\build.make CMakeFiles/PrimePairs.dir/clean
 .PHONY : CMakeFiles/PrimePairs.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MoveRight.dir
+
+# All Build rule for target.
+CMakeFiles/MoveRight.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MoveRight.dir\build.make CMakeFiles/MoveRight.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MoveRight.dir\build.make CMakeFiles/MoveRight.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target MoveRight"
+.PHONY : CMakeFiles/MoveRight.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MoveRight.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MoveRight.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++(CL)\PAT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/MoveRight.dir/rule
+
+# Convenience name for target.
+MoveRight: CMakeFiles/MoveRight.dir/rule
+
+.PHONY : MoveRight
+
+# clean rule for target.
+CMakeFiles/MoveRight.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MoveRight.dir\build.make CMakeFiles/MoveRight.dir/clean
+.PHONY : CMakeFiles/MoveRight.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

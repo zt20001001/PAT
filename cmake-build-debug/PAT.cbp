@@ -101,48 +101,6 @@
 					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ReverseDialog">
-				<Option output="D:/C++(CL)/PAT/cmake-build-debug/ReverseDialog.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReverseDialog"/>
-					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ReverseDialog/fast">
-				<Option output="D:/C++(CL)/PAT/cmake-build-debug/ReverseDialog.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReverseDialog/fast"/>
-					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="AnotherOutput">
 				<Option output="D:/C++(CL)/PAT/cmake-build-debug/AnotherOutput.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
@@ -185,11 +143,85 @@
 					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="ReverseDialog">
+				<Option output="D:/C++(CL)/PAT/cmake-build-debug/ReverseDialog.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReverseDialog"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReverseDialog/fast">
+				<Option output="D:/C++(CL)/PAT/cmake-build-debug/ReverseDialog.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReverseDialog/fast"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountNumber">
+				<Option output="D:/C++(CL)/PAT/cmake-build-debug/CountNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 CountNumber"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountNumber/fast">
+				<Option output="D:/C++(CL)/PAT/cmake-build-debug/CountNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 CountNumber/fast"/>
 					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -237,6 +269,48 @@
 					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="MoveRight">
+				<Option output="D:/C++(CL)/PAT/cmake-build-debug/MoveRight.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 MoveRight"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MoveRight/fast">
+				<Option output="D:/C++(CL)/PAT/cmake-build-debug/MoveRight.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 MoveRight/fast"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
 				<Option type="4"/>
@@ -247,9 +321,25 @@
 					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/C++(CL)/PAT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/C++(CL)/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="D:/C++(CL)/PAT/Algorithm/AnotherOutput.cpp">
 			<Option target="AnotherOutput"/>
+		</Unit>
+		<Unit filename="D:/C++(CL)/PAT/Algorithm/CountNumber.cpp">
+			<Option target="CountNumber"/>
+		</Unit>
+		<Unit filename="D:/C++(CL)/PAT/Algorithm/MoveRight.cpp">
+			<Option target="MoveRight"/>
 		</Unit>
 		<Unit filename="D:/C++(CL)/PAT/Algorithm/PrimePairs.cpp">
 			<Option target="PrimePairs"/>
